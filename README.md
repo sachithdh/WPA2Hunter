@@ -39,9 +39,3 @@ chmod +x wifi-hack.sh
 
 
 Feel free to customize the content further based on your preferences or additional information you want to include in the README.
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 7db495f (Fix errors)
