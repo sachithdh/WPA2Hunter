@@ -7,7 +7,7 @@ echo "Enter network interface: "
 read interface
 
 # Start monitor mode
-sudo airmon-ng start
+sudo airmon-ng start $interface
 
 # See network config
 iwconfig
