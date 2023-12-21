@@ -48,7 +48,7 @@ Filter wireshark messages for eapol
 #### Use Aircrack-ng to crack the password. Provide a password list, such as rockyou.txt, for brute force.
 
 ```bash
-aircrack-ng <filename>.cap -w <passwordlist>.txt
+aircrack-ng <filename>.cap -w <path to password list>
 ```
 
 Feel free to customize the content further based on your preferences or additional information you want to include in the README.
