@@ -50,5 +50,3 @@ Filter wireshark messages for eapol
 ```bash
 aircrack-ng <filename>.cap -w <path to password list>
 ```
-
-Feel free to customize the content further based on your preferences or additional information you want to include in the README.
