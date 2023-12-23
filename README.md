@@ -14,38 +14,38 @@ This project is a demonstration and educational tool developed for learning and 
 
 ## Installation
 
-#### Make sure you have Aircrack-ng and gnome-terminal installed. You can install them on Debian-based systems using:
+**Make sure you have Aircrack-ng and gnome-terminal installed. You can install them on Debian-based systems using:**
 
 ```bash
 sudo apt update
 sudo apt install aircrack-ng
 sudo apt install gnome-terminal
 ```
-#### Clone the repo and navigate to the directory
+**Clone the repo and navigate to the directory**
 ```bash
 git clone https://github.com/your-username/wifi-hacking-script.git
 cd WPA2-Password-Cracker
 ```
-#### Make the script executable
+**Make the script executable**
 ```bash
 chmod +x wifi-hack.sh
 ```
 
-#### Run the script
+**Run the script**
 ```bash
 ./handshakeCatcher.sh
 ```
 
-## Crack the password
+**Crack the password**
 
-Use Wireshark to open the captured file. Make sure you capture the 4-way handshake.
+You can use Wireshark to open the captured file. Make sure you capture the 4-way handshake.
 
 ```bash
 wireshark <filename>.cap
 ```
 Filter wireshark messages for eapol
 
-#### Use Aircrack-ng to crack the password. Provide a password list, such as rockyou.txt, for brute force.
+**Use Aircrack-ng to crack the password. Provide a password list, such as rockyou.txt, for brute force**
 
 ```bash
 aircrack-ng <filename>.cap -w <path to password list>
