@@ -28,12 +28,12 @@ cd WPA2-Password-Cracker
 ```
 **Make the script executable**
 ```bash
-chmod +x wifi-hack.sh
+chmod +x wpa2hunter
 ```
 
 **Run the script**
 ```bash
-./handshakeCatcher.sh
+./wpa2hunter
 ```
 
 **Crack the password**
