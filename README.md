@@ -23,7 +23,7 @@ sudo apt install gnome-terminal
 ```
 **Clone the repo and navigate to the directory**
 ```bash
-git clone https://github.com/your-username/wifi-hacking-script.git
+git clone https://github.com/sacheex/WPA2-WIFI-Password-Cracker.git
 cd WPA2-Password-Cracker
 ```
 **Make the script executable**
