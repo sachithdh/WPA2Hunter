@@ -15,12 +15,31 @@ This project is a demonstration and educational tool developed for learning and 
 ## Installation
 
 **Make sure you have Aircrack-ng and gnome-terminal installed. You can install them on Debian-based systems using:**
+### Dependencies
+- aircrack-ng
+- gnome-terminal
+  
 
 ```bash
 sudo apt update
 sudo apt install aircrack-ng
 sudo apt install gnome-terminal
 ```
+
+### Install using dpkg
+
+**Download the .dep File**
+- Go to the [Releases](https://github.com/sacheex/WPA2-WIFI-Password-Cracker/releases) section of this repository.
+- Find the desired version and download the .dep file
+- Navigate to the directory where the .dep file is located
+- Run the installation command:
+  ```bash
+  sudo dpkg -i wpa2hunter
+  ```
+
+### Install using git clone
+
+
 **Clone the repo and navigate to the directory**
 ```bash
 git clone https://github.com/sacheex/WPA2-WIFI-Password-Cracker.git
@@ -50,3 +69,4 @@ Filter wireshark messages for eapol
 ```bash
 aircrack-ng <filename>.cap -w <path to password list>
 ```
+
