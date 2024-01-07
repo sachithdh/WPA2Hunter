@@ -11,11 +11,11 @@ This repository contains a Bash script for catching WPA2 4-way handshake using A
 
 ## Installation
 
-**Make sure you have Aircrack-ng and gnome-terminal installed. You can install them on Debian-based systems using:**
 ### Dependencies
 - aircrack-ng
 - gnome-terminal
   
+**Make sure you have Aircrack-ng and gnome-terminal installed. You can install them on Debian-based systems using:**
 
 ```bash
 sudo apt update
