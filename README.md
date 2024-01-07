@@ -6,10 +6,7 @@ This repository contains a Bash script for catching WPA2 4-way handshake using A
 
 # Disclaimer
 
-This project is a demonstration and educational tool developed for learning and research purposes only. The primary goal is to provide insights into network security and cryptography by showcasing the vulnerabilities associated with weak handshake protocols.
-
-
-**Note: Unauthorized access to computer systems and networks is illegal and unethical. This project should only be used in environments where you have explicit permission to test and assess security.**
+**Unauthorized access to computer systems and networks is illegal and unethical. This project should only be used in environments where you have explicit permission to test and assess security.**
 
 
 ## Installation
