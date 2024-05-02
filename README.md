@@ -27,8 +27,8 @@ sudo apt install gnome-terminal
 
 **Download the .dep File**
 - Go to the [Releases](https://github.com/sacheex/WPA2-WIFI-Password-Cracker/releases) section of this repository.
-- Find the desired version and download the .dep file
-- Navigate to the directory where the .dep file is located
+- Find the desired version and download the .deb file
+- Navigate to the directory where the .deb file is located
 - Run the installation command:
   ```bash
   sudo dpkg -i wpa2hunter
