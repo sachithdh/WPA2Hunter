@@ -25,7 +25,7 @@ sudo apt install gnome-terminal
 
 ### Install using dpkg
 
-**Download the .dep File**
+**Download the .deb File**
 - Go to the [Releases](https://github.com/sacheex/WPA2-WIFI-Password-Cracker/releases) section of this repository.
 - Find the desired version and download the .deb file
 - Navigate to the directory where the .deb file is located
