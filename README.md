@@ -1,7 +1,7 @@
 # WPA2-Password-Cracker
 
 
-This repository contains a Bash script for catching WPA2 4-way handshake using Aircrack-ng tools. The script automates the process of capturing BSSID and Handshake for a specified Wi-Fi network.
+This repository contains a automation tool for capturing WPA2 4-way handshake and cracking the password. This automates the process of capturing BSSID and Handshake for a specified Wi-Fi network.
 
 
 # Disclaimer
