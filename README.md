@@ -4,10 +4,6 @@
 This repository contains a automation tool for capturing WPA2 4-way handshake and cracking the password. This automates the process of capturing BSSID and Handshake for a specified Wi-Fi network.
 
 
-# Disclaimer
-
-**Unauthorized access to computer systems and networks is illegal and unethical. This project should only be used in environments where you have explicit permission to test and assess security.**
-
 
 ## Installation
 
@@ -136,3 +132,11 @@ CH  1 ][ Elapsed: 12 s ][ 2024-01-02 00:32 ][ Are you sure you want to quit? Pre
                                                                                                                                                                                                                                              
  32:C2:**:**:**:**  EE:20:52:**:**:**  -62    1e- 1    134      288  EAPOL  Redmi 9C                                                                                                                                                         
 ```
+
+
+
+# Disclaimer
+
+**Unauthorized access to computer systems and networks is illegal and unethical. This project should only be used in environments where you have explicit permission to test and assess security.**
+
+
