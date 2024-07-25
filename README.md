@@ -1,7 +1,7 @@
 # WPA2-Password-Cracker
 
 
-This repository contains a automation tool for capturing WPA2 4-way handshake and cracking the password. This automates the process of capturing BSSID and Handshake for a specified Wi-Fi network.
+Automation tool for capturing WPA2 4-way handshake and cracking the password. This automates the process of capturing BSSID and Handshake for a specified Wi-Fi network.
 
 
 
